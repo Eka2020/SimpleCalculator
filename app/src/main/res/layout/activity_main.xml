@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#483B4E"
+    android:background="#76BD23"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -12,10 +12,10 @@
         android:id="@+id/Result_field"
         android:layout_width="match_parent"
         android:layout_height="51dp"
-        android:background="#37233A"
-        android:hint="Result"
-        android:textColor="@android:color/background_light"
-        android:textColorHint="@android:color/background_light"
+        android:background="#D9E1DA"
+        android:hint="Результат"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
         android:textSize="30sp" />
 
     <LinearLayout

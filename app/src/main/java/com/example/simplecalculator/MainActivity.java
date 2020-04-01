@@ -51,8 +51,11 @@ public class MainActivity extends AppCompatActivity {
                 result.append("0");
                 break;
             case R.id.dot:
-               result.append(".");
-               break;
+              String string=(result.getText().toString().trim());
+              if (string.length()>0) {
+                  result.setText(string + ".");
+                  break;
+              }
             case R.id.Clear:
                 result.setText(" ");
                 break;
